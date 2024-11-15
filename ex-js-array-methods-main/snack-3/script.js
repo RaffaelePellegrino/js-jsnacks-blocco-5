@@ -4,10 +4,10 @@ const numbers = [2, 8, 4, 7, 2, 87];
 // Risultato: [3, 9, 5, 8, 3, 88]
 
 
-const refreshedNumbers = numbers.map(add)
+const refreshedNumbers = numbers.map(add => add+1)
 
-function add(number){
-    return number+1;
-}
+// function add(number){
+//     return number+1;
+// }
 
 console.log(refreshedNumbers)
